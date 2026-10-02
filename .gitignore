@@ -1,0 +1,37 @@
+.DS_Store
+.env*
+!.env.example
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+
+# Private working reports and submission-source artifacts
+/REPORT.md
+/reports/visual-report/
+/reports/submission/
+/reports/turn_detector_architecture_diagram_audit.txt
+/reports/turn_detector_architecture_paperbanana_prompt.txt
+
+# Only the optimized images referenced by README.md belong in GitHub.
+/docs/readme-assets/*
+!/docs/readme-assets/*.png
+
+# Large/generated assets
+/artifacts/*
+!artifacts/.gitkeep
+/data/
+/checkpoints/
+/outputs/
+/wandb/
+*.onnx
+*.safetensors
+*.pt
+*.pth

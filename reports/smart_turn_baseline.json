@@ -1,0 +1,25 @@
+{
+  "overall": {
+    "slice": "overall",
+    "n": 396,
+    "accuracy": 0.9369,
+    "false_interruption_rate": 0.0995,
+    "false_hold_rate": 0.0293
+  },
+  "slices": [
+    {
+      "slice": "eng",
+      "n": 264,
+      "accuracy": 0.9394,
+      "false_interruption_rate": 0.0909,
+      "false_hold_rate": 0.0303
+    },
+    {
+      "slice": "hin",
+      "n": 132,
+      "accuracy": 0.9318,
+      "false_interruption_rate": 0.1186,
+      "false_hold_rate": 0.0274
+    }
+  ]
+}
